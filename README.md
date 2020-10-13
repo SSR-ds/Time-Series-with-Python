@@ -5,4 +5,6 @@ Learning Time Series from AI Engineering YouTube Videos
     --> the main plots that give us idea of the data and dataset are 
                 --> Lag Plot
                 --> auto correlation plot
+                --> heatmap
                 --> pairplot and sometimes grouping data together will help us to have a better idea of the dataset and gain insights from them
+                --> libraries such as plotly express helps us to have slider over the range of time and play with the data

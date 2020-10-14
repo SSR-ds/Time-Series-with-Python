@@ -11,4 +11,4 @@ Learning Time Series from AI Engineering YouTube Videos
 
 
 2) While there are many methods to impute missing data such as global mean and median we have to adopt a different approach for time series data
-        They are bfill,ffill,Offset Method(Takes from last year and imputes it),rolling window method
+        They are bfill, ffill, Offset Method(Takes from last year and imputes it), rolling window method

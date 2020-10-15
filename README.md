@@ -14,4 +14,4 @@ Learning Time Series from AI Engineering YouTube Videos
         They are bfill, ffill, Offset Method(Takes from last year and imputes it), rolling window method
 
 3) Moving Averages - There are various types of moving averages in Time Series Concept. 
-   They are 
+   They are Simple Moving Average, Weighted Moving Average (Multiply with weights), Exponential Moving Average (multiply with exponents from previous ones), Exponential              Smoothening (Alpha value). The best can be found out by calculationg RMSE value on the whole.

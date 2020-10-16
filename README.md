@@ -1,4 +1,5 @@
 # Time-Series-with-Python
+
 Learning Time Series from AI Engineering YouTube Videos 
 
 1) Exploratory Data Analysis of a Time Series Dataset
@@ -15,3 +16,15 @@ Learning Time Series from AI Engineering YouTube Videos
 
 3) Moving Averages - There are various types of moving averages in Time Series Concept. 
    They are Simple Moving Average, Weighted Moving Average (Multiply with weights), Exponential Moving Average (multiply with exponents from previous ones), Exponential              Smoothening (Alpha value). The best can be found out by calculationg RMSE value on the whole.
+   
+4) Time Series Decomposition methods - Trend, Seasonality, Noise
+               Decomposition Models - Additive, Multiplicative
+               For AR/MA data needs to be stationary
+    
+    kpss = determining whether the time series is stationary around mean or linear time. 
+         c - data is stationary around a constant, ct - data is stationary around a trend
+         
+         Additive - Trend + Seasonality + Residual
+         Multiplicative - Trend * Seasonality * Residual
+         
+ 5) Time series function in Python: resample, diff, shift, tshift, rolling window

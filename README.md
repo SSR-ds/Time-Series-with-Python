@@ -28,3 +28,7 @@ Learning Time Series from AI Engineering YouTube Videos
          Multiplicative - Trend * Seasonality * Residual
          
  5) Time series function in Python: resample, diff, shift, tshift, rolling window. cumsum(expanding.sum()),expanding.mean() index.month, index.year, index.week, pct_change
+ 
+ 6) KPSS and ADF Test helps us to find whether a time series is stationary or not around a particular time period. Stationary - mean variance and auto corelation does not change     over a period of time (no seasonality found). Understanding the time series will help us to find the right model for analysis.
+ 
+    ARMA model - Auto regressive and moving average model expects time series to be stationary

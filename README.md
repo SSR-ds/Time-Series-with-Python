@@ -27,4 +27,4 @@ Learning Time Series from AI Engineering YouTube Videos
          Additive - Trend + Seasonality + Residual
          Multiplicative - Trend * Seasonality * Residual
          
- 5) Time series function in Python: resample, diff, shift, tshift, rolling window
+ 5) Time series function in Python: resample, diff, shift, tshift, rolling window. cumsum(expanding.sum()),expanding.mean() index.month, index.year, index.week, pct_change

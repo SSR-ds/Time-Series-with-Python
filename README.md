@@ -33,6 +33,15 @@ Learning Time Series from AI Engineering YouTube Videos
  
     ARMA model - Auto regressive and moving average model expects time series to be stationary.
     
-    if its not stationary add some trend component to it that is the 'I'. Makes the time series stationary through the process of differentiation. This is basically         differentiating from the previous time series lag. Now it becomes an ARIMA model.
+    if its not stationary add some trend component to it that is the 'I'. Makes the time series stationary through the process of differentiation. This is basically                 differentiating from the previous time series lag. Now it becomes an ARIMA model.
     
     Hence when it is a stationary use ARMA or else use ARIMA to make it stationary (which can be over one or many time period) i.e the parameter called D.
+    
+    KPSS Test -->  Series is Stationary --> Null Hypothesis - p>0.05 -> Stationary
+                   Series is not Stationary --> Alternate Hypothesis-- p<0.05 -> Non Stationary
+                   
+                   
+    Adfuller -->  Series is not Stationary --> Null Hypothesis - p<0.05 -> Stationary
+                  Series is Stationary --> Alternate Hypothesis-- p>0.05 -> Non Stationary
+                   
+                   

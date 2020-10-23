@@ -45,3 +45,5 @@ Learning Time Series from AI Engineering YouTube Videos
                   Series is Stationary --> Alternate Hypothesis-- p>0.05 -> Non Stationary
                    
                    
+7) Auto ARIMA Package- 'pmdarima' package to predict values of future time series
+                   

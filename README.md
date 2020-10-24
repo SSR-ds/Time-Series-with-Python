@@ -31,6 +31,8 @@ Learning Time Series from AI Engineering YouTube Videos
  
  6) KPSS and ADF Test helps us to find whether a time series is stationary or not around a particular time period. Stationary - mean variance and auto corelation does not change     over a period of time (no seasonality found). Understanding the time series will help us to find the right model for analysis.
  
+ If you leave it without any modifications the confidence interval is going to be taken as 80%, so we have to give interval width and modify it as 0.95 which sets the confidence interval to 95% or modify it as per our wish
+ 
     ARMA model - Auto regressive and moving average model expects time series to be stationary.
     
     if its not stationary add some trend component to it that is the 'I'. Makes the time series stationary through the process of differentiation. This is basically                 differentiating from the previous time series lag. Now it becomes an ARIMA model.

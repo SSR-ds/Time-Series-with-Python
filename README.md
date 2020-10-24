@@ -46,4 +46,6 @@ Learning Time Series from AI Engineering YouTube Videos
                    
                    
 7) Auto ARIMA Package- 'pmdarima' package to predict values of future time series
+
+8) Using FB Prophet - It is package that is open sourced by Facebook DS Team. Prophet is a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects.
                    

@@ -51,5 +51,7 @@ Learning Time Series from AI Engineering YouTube Videos
 
 8) Using FB Prophet - It is package that is open sourced by Facebook DS Team. Prophet is a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. The input is required in the form of ds: that is the input column and y: output column. In someo cases we take care of null values by using ffill or bfill like we did for the normal time series data analysis, but fb prophet takes care of the null value by its own algorithm.
 
-9) FB Prophet also supports multivariate analysis
+9) FB Prophet also supports multivariate analysis. While the prophet takes care of the null values or missing values in the first dependent column 'y', the other dependent columns have to be imputed by us before we further go into analysis
+
+10) Holiday modeling - 
                    

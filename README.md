@@ -53,5 +53,5 @@ Learning Time Series from AI Engineering YouTube Videos
 
 9) FB Prophet also supports multivariate analysis. While the prophet takes care of the null values or missing values in the first dependent column 'y', the other dependent columns have to be imputed by us before we further go into analysis
 
-10) Holiday modeling - 
+10) Holiday modeling - Trend and Non Stationary it is multiplicative model, when data does not have any trend and its stationary it is additive model
                    

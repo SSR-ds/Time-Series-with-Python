@@ -55,4 +55,4 @@ Learning Time Series from AI Engineering YouTube Videos
 
 10) Holiday modeling - Trend and Non Stationary it is multiplicative model, when data does not have any trend and its stationary it is additive model
                    
-11) Anomaly Detection - Helps in detrmining error (y-yhat) and uncertainity (yhat_upper - yhat_lower) and plot them through a scatter plot to see the anomaly
+11) Anomaly Detection - Helps in detrmining error (y-yhat) and uncertainity (yhat_upper - yhat_lower).Further the anomaly can be plotted through a scatter plot 

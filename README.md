@@ -62,3 +62,8 @@ Learning Time Series from AI Engineering YouTube Videos
 Total width = Understanding the input width (time period taken from-to), offset width(the gap thats given as offset), label width(predicting this value from input). Initiate TimeSeriesGenerator in Python to work this out.
 
 sampling_rate =1 to get a continous value, batch_size=1 or 64 or 128 when training the model. Most of the times mini batch size is not prefered as its related to training the model. Length defines the input width.
+
+Understanding sliding window and tumbling window
+
+Sliding window = on basis of the stride it strides and takes based on the window size
+Tumbling window or hopping window = takes window size, but no stride

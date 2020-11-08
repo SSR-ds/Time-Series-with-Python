@@ -56,3 +56,7 @@ Learning Time Series from AI Engineering YouTube Videos
 10) Holiday modeling - Trend and Non Stationary it is multiplicative model, when data does not have any trend and its stationary it is additive model
                    
 11) Anomaly Detection - Helps in detrmining error (y-yhat) and uncertainity (yhat_upper - yhat_lower).Further the anomaly can be plotted through a scatter plot 
+
+12) Time Series for RNN and LSTM Models: Split the dataset into the features and target dataset where the features contain the pre existing features and the target contains the column that is going to be predicted by this method based on the feature. Take the first 5 values and predict the next value is the basis of understanding this concept.
+
+Total width = Understanding the input width (time period taken from-to), offset width(the gap thats given as offset), label width(predicting this value from input). Initiate TimeSeriesGenerator in Python to work this out.

@@ -60,3 +60,5 @@ Learning Time Series from AI Engineering YouTube Videos
 12) Time Series for RNN and LSTM Models: Split the dataset into the features and target dataset where the features contain the pre existing features and the target contains the column that is going to be predicted by this method based on the feature. Take the first 5 values and predict the next value is the basis of understanding this concept.
 
 Total width = Understanding the input width (time period taken from-to), offset width(the gap thats given as offset), label width(predicting this value from input). Initiate TimeSeriesGenerator in Python to work this out.
+
+sampling_rate =1 to get a continous value, batch_size=1 or 64 or 128 when training the model. Most of the times mini batch size is not prefered as its related to training the model. Length defines the input width.

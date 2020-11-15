@@ -1,6 +1,6 @@
 # Time-Series-with-Python
 
-Learning Time Series from AI Engineering YouTube Videos 
+Credits - AI Engineering 
 
 1) Exploratory Data Analysis of a Time Series Dataset
     --> the main plots that give us idea of the data and dataset are 

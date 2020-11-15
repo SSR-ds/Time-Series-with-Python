@@ -67,3 +67,5 @@ Understanding sliding window and tumbling window
 
 Sliding window = on basis of the stride it strides and takes based on the window size
 Tumbling window or hopping window = takes window size, but no stride
+
+13) Deep AR and Gluon TS: AWS Sagemaker has Deep AR built inside it. In addition to this, Deep AR helps us to get rid of cold start problem upto an extent. It helps in creating single global model in case of multiple time series. There is no need to define a NN Model, we can do by configuration directly.

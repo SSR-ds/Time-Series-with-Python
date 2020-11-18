@@ -71,3 +71,10 @@ Tumbling window or hopping window = takes window size, but no stride
 13) Deep AR and Gluon TS: AWS Sagemaker has Deep AR built inside it. In addition to this, Deep AR helps us to get rid of cold start problem upto an extent. It helps in creating single global model in case of multiple time series. There is no need to define a NN Model, we can do by configuration directly.
 
 DeepAREstimator where frequency is the frequency of the data (time interval), context_length is how much back data that we have to take, layers is what we define and type is what we define, we can also give learning rate that we give in deep learning network.
+
+DeepAR is supervised learning algorithm for TS uses RNN to produce both point in time and probabilistic forecast. 
+
+Point in time - At a particular time the forecast
+Probabilistic - with the confidence interval range
+
+Deep AR helps in creating single global model when there are multiple time series. Individual models can be totally clubbed together. 

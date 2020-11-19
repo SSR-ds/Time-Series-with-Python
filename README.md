@@ -78,3 +78,5 @@ Point in time - At a particular time the forecast
 Probabilistic - with the confidence interval range
 
 Deep AR helps in creating single global model when there are multiple time series. Individual models can be totally clubbed together. 
+
+

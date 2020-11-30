@@ -79,4 +79,12 @@ Probabilistic - with the confidence interval range
 
 Deep AR helps in creating single global model when there are multiple time series. Individual models can be totally clubbed together. 
 
+14) Isolation Forest - A method for anomaly detection and isolation the anomalies as we would like.
+
+15) Multiple Time Series Using Spark and FB Prophet
+        -- Install Java 8 version as more than 9 version has bug thats not solved yet
+        -- Install Pyspark (Python+Spark) Integration
+        -- Install Pyarrow (package for efficiently transferring data between spark and pandas) and we are installing 0.15th version
+        
+
 

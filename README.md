@@ -86,5 +86,7 @@ Deep AR helps in creating single global model when there are multiple time serie
         -- Install Pyspark (Python+Spark) Integration
         -- Install Pyarrow (package for efficiently transferring data between spark and pandas) and we are installing 0.15th version
         
+    Spark UDF operates row by row
+        
 
 

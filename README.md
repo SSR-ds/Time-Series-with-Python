@@ -88,6 +88,6 @@ Deep AR helps in creating single global model when there are multiple time serie
         
     Spark UDF operates row by row
         
-16) Autoencoder - It is a type of neural network that learns to copy the input to its output. Further it may look like an identity function but the ouptut x' is a constraint when compared to the input x. It learns efficient data encodings in an unsupervised manner. The input encoder gets the input and it pushed the input to lower dimensional space that is the latent vector (called as the bottleneck layer). It allows model to learn by performing dimensionality reduction, much better than PCA and allows model to learn powerful generalizations. Ouput is of less loss. While PCA is on a linear dataset, auto encoder is going to be performed on a non linear data
+16) Autoencoder - It is a type of neural network that learns to copy the input to its output. Further it may look like an identity function but the ouptut x' is a constraint when compared to the input x. It learns efficient data encodings in an unsupervised manner. The input encoder gets the input and it pushed the input to lower dimensional space that is the latent vector (called as the bottleneck layer). It allows model to learn by performing dimensionality reduction, much better than PCA and allows model to learn powerful generalizations. Ouput is of less loss. While PCA is on a linear dataset, auto encoder is going to be performed on a non linear data. The decoder again decodes them to higher space
 
 

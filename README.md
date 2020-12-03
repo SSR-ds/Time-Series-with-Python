@@ -88,5 +88,6 @@ Deep AR helps in creating single global model when there are multiple time serie
         
     Spark UDF operates row by row
         
+16) Autoencoder - It is a type of neural network that learns to copy the input to its output. Further it may look like an identity function but the ouptut x' is a constraint when compared to the input x. It learns efficient data encodings in an unsupervised manner.
 
 

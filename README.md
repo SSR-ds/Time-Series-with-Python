@@ -92,3 +92,5 @@ Deep AR helps in creating single global model when there are multiple time serie
 
 #as auto encoder we do the process of both upsampling and downsampling - reconstruction error for the anomaly data will be really high than the normal data
 #sigmoid and relu to learn the non linear functions
+
+There will be large difference between normal training loss and validation loss. In the validation function we are giving both the normal data and anomaly data against training data as the normal data, which is the main reason for having early stopping
